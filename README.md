@@ -1,2 +1,2 @@
-# shardmd-core
+# Shard.md Core
 -> server providing an API for managing collections of Markdown files
