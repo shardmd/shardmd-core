@@ -1,0 +1,15 @@
+- *Shard.md Core*: Central Server managing Markdown notes
+	- providing a standardized API to interact with notes
+	- provide possibility for rule/template definition
+	- may be run as executable or as Docker container
+	- takes REST requests for one-time operations
+	- uses WebSockets for live-feedback
+- *Shard.md CLI*: CLI to directly interact with Core
+	- allows direct access to the REST interfaces
+	- can be used in Git Hooks
+- *Shard.md Obsidian Plugin*: Offers a direct integration for [Obsidian.md](https://obsidian.md)
+- *Shard.md Extensions*
+	- allow the usage of advanced architecture documentation patterns
+	- allow integration with code documentation
+		- linked/provided data supplier
+		- provide suggestions in certain contexts
